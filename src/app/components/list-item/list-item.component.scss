@@ -1,0 +1,23 @@
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: 15px;
+    // flex: 1 0 auto;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+button {
+    margin: 10px;
+}

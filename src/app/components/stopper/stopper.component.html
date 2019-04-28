@@ -1,0 +1,6 @@
+<button (click)="addNewDateRecord()">Click me!</button>
+
+<p>Latest: {{clickingButtonDates[clickingButtonDates.length - 1] | date: 'full'}}</p>
+<p *ngFor="let date of clickingButtonDates">
+    {{date | date : 'mediumTime'}},
+</p>
